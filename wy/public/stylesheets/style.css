@@ -80,7 +80,7 @@ a,li,input {
 }
 .fo1{
 	width: 100%;
-	height: 20px;
+	height: 25px;
 }
 .fo1 ul{
 	width: 342px;
@@ -93,10 +93,10 @@ a,li,input {
 	font-size: 12px;
 }
 .fo2{
-	color: #999;
 	font-size: 12px;
+	color: #999;
 }
 .fo2 a{
-	color: #999;
 	font-size: 12px;
+	color: #999;
 }

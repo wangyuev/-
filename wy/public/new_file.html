@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/css.css"/>
+	</head>
+	<body>
+		<h1>Skier Dictionary</h1>
+		<ul class="box">
+			<li>
+				<h3></h3>
+				<p></p>
+			</li>
+		</ul>
+		<div class="inp">
+			<input type="text" name="" class="in1" value="" />
+			<input type="text" name="" class="in2" value="" />
+			<button>Add</button>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$.ajax({
+				type:"post",
+				url:"http://localhost:3000/",
+				success:function(e){
+					$('li').append('<h3>'+e.name[text]+'</h3><p>'+e.name'</p>')
+				}
+			});
+		})
+	</script>
+</html>
